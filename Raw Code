@@ -1,0 +1,69 @@
+goodFace = ("\033[32m⑅•ᴗ•⑅\033[0m")
+badFace = ("\033[31m(✖╭╮✖)\033[0m")
+specialFace = ("\033[35m(•̀ᴗ•́)൬༉\033[0m")
+
+
+print("!(•̀ᴗ•́)و ̑̑\n")
+# most basic rules of the English grammar, indicating that whenever we are going to start typing, the first letter from the first word it written with Upper Caps.
+print ("Hello, I gladly welcome you to this short Quiz Game! \n\nNext, you will find 5 questions, and all your answers must be typed according to the most basic rules of the English grammar, keep that in mind. \n") 
+
+#comment
+confirmation = input ("You will learn something new here, are you ready? Type yes for knowledge. \n")
+if confirmation != ("yes"): 
+  quit()
+  
+print()
+print("( ͡° ͜ʖ ͡°)\n ")
+First_Question = input ("\033[33mFirst question:\033[0m When did the United States Declaration of Independence begin to be signed? \nUse \033[33mxx/xx/xxxx\033[0m format: ")
+
+if First_Question == "08/02/1776":
+  print()
+  print(goodFace," \nExcellent! Nicely done.\n")
+else:
+  print()
+  print(badFace," \nIncorrect, but close enough. You had the year right. It was on August 2nd, 1776. \n")
+
+
+Second_Question = input ("\033[33mSecond question:\033[0m South of which U.S tech Capital City 30% of Canadians Live? \n")
+
+if Second_Question == "Seattle": 
+  print()
+  print(goodFace," \nHmm, good aced question! Did you know that The city of Seattle is considered one of the main 10 tech cities in the United States. Around 1,437,000 of Canadians live in Ottawa, 6,372,000 in Toronto and 4,308,000 in Montreal. That means that roughly 12,117,000 of Canadians live South of Seattle. Considering that the Canadian population as of January 2023 is estimated to be 39,566,248, around 30% of Canadians reside below Seattle. Amazon, one of the strongest and biggest companies on the planet, has its Headquarters in Seattle. That alone makes the tech city higly important for tech related matters. Also, Microsoft Corporation has its Headquarters in Redmond, Washington. Although Redmond is not within Seattle borderlines, it is only 11 miles give or take on a straight line, according to Google Maps.\n")
+else:
+  print()
+  print(badFace," \nNot really, but good try! The city of Seattle is considered one of the main 10 tech cities in the United States. Around 1,437,000 of Canadians live in Ottawa, 6,372,000 in Toronto and 4,308,000 in Montreal. That means that roughly 12,117,000 of Canadians live South of Seattle. Considering that the Canadian population as of January 2023 is estimated to be 39,566,248, around 30% of Canadians reside below Seattle. Amazon, one of the strongest and biggest companies on the planet, has its Headquarters in Seattle. That alone makes the tech city higly important for tech related matters. Also, Microsoft Corporation has its Headquarters in Redmond, Washington. Although Redmond is not within Seattle borderlines, it is only 11 miles give or take on a straight line, according to Google Maps.\n ")
+
+
+Third_Question = input ("\033[33mThird question:\033[0m Which is the only biologically immortal animal? ")
+ 
+if Third_Question == "Jellyfish":
+  print()
+  print(goodFace," \nGreat! Also, the Scientific name for the immortal Jellyfish is Turritopsis dohrnii. If the T. dohrnii jellyfish is exposed to environmental stress, physical assault, or is sick or old, it can revert to the polyp stage, forming a new polyp colony. It does this through the cell development process of transdifferentiation, which alters the differentiated state of the cells and transforms them into new types of cells. Theoretically, this process can go on indefinitely, effectively rendering the jellyfish biologically immortal, although in practice individuals can still die. In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form. The capability of biological immortality with no maximum lifespan makes T. dohrnii an important target of basic biological, aging and pharmaceutical research.\n ")
+else:
+  print()
+  print(badFace," \nNo problem, read this: There is a Jellyfish, also known as Turritopsis dohrnii, that is consider biologically immortal. If the T. dohrnii jellyfish is exposed to environmental stress, physical assault, or is sick or old, it can revert to the polyp stage, forming a new polyp colony. It does this through the cell development process of transdifferentiation, which alters the differentiated state of the cells and transforms them into new types of cells. Theoretically, this process can go on indefinitely, effectively rendering the jellyfish biologically immortal, although in practice individuals can still die. In nature, most Turritopsis dohrnii are likely to succumb to predation or disease in the medusa stage without reverting to the polyp form. The capability of biological immortality with no maximum lifespan makes T. dohrnii an important target of basic biological, aging and pharmaceutical research.\n ")
+
+
+Fourth_Question = input ("\033[33mFourth question:\033[0m Which country in Oceania has no capital? ")
+
+if Fourth_Question == "Nauru":
+  print()
+  print(goodFace," \nAmazing knowledge! Nauru has no official capital, but government offices are located in the district of Yaren.\n ")
+else:
+  print()
+  print(badFace," \nClose, very close! Nauru has no official capital, but government offices are located in the district of Yaren.\n ")
+
+
+Fifth_Question = input ("Fifth question: At which temperature in Fahrenheit degrees does seawater freezes? Type only the number, no comas(integer): ")
+
+if Fifth_Question == "28":
+  print()
+  print(goodFace," \nEpic job! Fresh water freezes at 32 degrees Fahrenheit but seawater freezes at about 28.4 degrees Fahrenheit , because of the salt in it. When seawater freezes, however, the ice contains very little salt because only the water part freezes. It can be melted down to use as drinking water. \n")
+else:
+  print()
+  print(badFace," \nNot the fresh water, the seawater",specialFace, " Fresh water freezes at 32 degrees Fahrenheit but seawater freezes at about 28.4 degrees Fahrenheit , because of the salt in it. When seawater freezes, however, the ice contains very little salt because only the water part freezes. It can be melted down to use as drinking water. \n")
+  
+
+Opinion1 = input ("Although it was short, did you like what you learned? \n")  
+Opinion2 = input ("Did you get all your questions right? If so, \033[36mCongratulations!!!\033[0m \n")
+print(specialFace,specialFace,specialFace,specialFace,specialFace," \nMost participants get at least one incorrectly. \033[36mThank you for participating!\033[0m \n")
